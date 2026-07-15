@@ -1,0 +1,52 @@
+<div class="country-card">
+  <h2>Australia</h2>
+  <p class="subtitle">Select your platform to download or continue:</p>
+  
+  <div class="platform-buttons">
+    <!-- Android Button -->
+    <a href="#android-link" class="btn btn-android">
+      <span class="icon">🤖</span> Android
+    </a>
+    
+    <!-- Windows Button -->
+    <a href="#windows-link" class="btn btn-windows">
+      <span class="icon">🪟</span> Windows
+    </a>
+  </div>
+</div>
+
+<style>
+  .country-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 400px;
+    text-align: center;
+    font-family: sans-serif;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+  .subtitle {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  .platform-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    transition: background 0.2s;
+  }
+  .btn-android { background-color: #3DDC84; color: #000; }
+  .btn-android:hover { background-color: #32b86c; }
+  .btn-windows { background-color: #0078D4; }
+  .btn-windows:hover { background-color: #005a9e; }
+</style>
